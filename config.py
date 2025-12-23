@@ -19,18 +19,18 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "")
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Rishuhaibhaikyu:Rishuhaibhaikyu@cluster0.k2vvvql.mongodb.net/?appName=Cluster0")
  
     # other configs
     ADMIN_URL = "https://t.me/adityaabhinav"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003657105303")
     DUMP = True
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://ibb.co/Cs0zsrCn")
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "6701907262"))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002871570975"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6286894502"))
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002860266124"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003657105303"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
     LEADERBOARD_DELETE_TIMER = 30
