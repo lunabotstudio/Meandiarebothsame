@@ -22,7 +22,7 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Rishuhaibhaikyu:Rishuhaibhaikyu@cluster0.k2vvvql.mongodb.net/?appName=Cluster0")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
+    ADMIN_URL = "https://t.me/RishuBotz_Bot"
     DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003657105303")
     DUMP = True
     BOT_UPTIME  = time.time()
@@ -32,7 +32,7 @@ class Config(object):
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002860266124"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003657105303"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@LunaAutoRenameBot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
