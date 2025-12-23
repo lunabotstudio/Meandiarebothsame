@@ -23,7 +23,7 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
+    ADMIN_URL = "https://t.me/RishuBotz_Bot"
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002257657458"))
     DUMP = True
     BOT_UPTIME  = time.time()
