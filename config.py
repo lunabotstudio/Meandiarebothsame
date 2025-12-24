@@ -30,7 +30,7 @@ class Config(object):
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
     OWNER_ID = int(os.environ.get("OWNER_ID", "6286894502"))
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002860266124"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003657105303"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003184111200"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@LunaAutoRenameBot")
     LEADERBOARD_DELETE_TIMER = 30
@@ -53,11 +53,11 @@ class Config(object):
 <b>‣ /Autorename: ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ꜰɪʟᴇꜱ ʙʏ ɪɴᴄʟᴜᴅɪɴɢ 'ᴇᴘɪꜱᴏᴅᴇ' ᴀɴᴅ 'ǫᴜᴀʟɪᴛʏ' ᴠᴀʀɪᴀʙʟᴇꜱ ɪɴ ʏᴏᴜʀ ᴛᴇxᴛ, ᴛᴏ ᴇxᴛʀᴀᴄᴛ ᴇᴘɪꜱᴏᴅᴇ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ ᴘʀᴇꜱᴇɴᴛ ɪɴ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ꜰɪʟᴇɴᴀᴍᴇ. """
     
     ABOUT_TXT = f"""<b><blockquote expandable>❍ <u>ᴍʏ ɴᴀᴍᴇ</u> : <b><i>ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ</i></b>
-❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/RexBots_Official">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/Rishubotz_bot">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/RexBots_Official">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/RexBots_Official">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/LunaBotCreator">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/Luna_Modex">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</blockquote></b>"""
 
