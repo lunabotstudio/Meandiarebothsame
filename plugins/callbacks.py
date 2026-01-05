@@ -107,7 +107,7 @@ async def cb_handler(client, query: CallbackQuery):
                 text=Config.DONATE_TXT,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ʙᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("ᴏᴡɴᴇʀ •", url='https://t.me/RexBots_Official')]
+                    [InlineKeyboardButton("• ʙᴀᴄᴋ", callback_data="help"), InlineKeyboardButton("ᴏᴡɴᴇʀ •", url='https://t.me/RishuBotz_Bot')]
                 ])
             )
         elif data == "file_names":
