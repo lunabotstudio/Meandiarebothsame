@@ -32,7 +32,7 @@ class Config(object):
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002860266124"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003184111200"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@LunaAutoRenameBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AutoXRenameBot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
