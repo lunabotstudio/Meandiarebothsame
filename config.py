@@ -30,7 +30,7 @@ class Config(object):
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
     OWNER_ID = int(os.environ.get("OWNER_ID", "6286894502"))
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002860266124"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003184111200"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002987928500"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "https://graph.org/file/e966762ae3ea1254d4274-535c23be037f9e52e9.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "AutoXRenameBot")
     LEADERBOARD_DELETE_TIMER = 30
