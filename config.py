@@ -19,7 +19,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Rishuhaibhaikyu:Rishuhaibhaikyu@cluster0.k2vvvql.mongodb.net/?appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL", "")
  
     # other configs
     ADMIN_URL = "https://t.me/RishuBotz_Bot"
